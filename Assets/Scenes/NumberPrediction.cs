@@ -44,12 +44,14 @@ void SonrakiTahmin()
             max = tahmin;
             SonrakiTahmin();
 
-            Debug.Log("Tahminim:"+ tahmin +"yükseltiyim mi alcaltıyım mı?");
+            Debug.Log("Tahminim:"+ tahmin +"yükseltiyim mi - alcaltıyım mı?");
         }
         else if(Input.GetKeyDown(KeyCode.Return))
         {
-            Debug.Log("ben kazandım");
+            Debug.Log("ben kazandım!!");
             OyunaBasla();
         }
+
+
     }
 }
